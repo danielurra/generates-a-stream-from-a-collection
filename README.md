@@ -42,4 +42,4 @@ The forEach() operation at (4)<br> performs an action on each stream element,<br
 as defined by a `lambda expression` that implements the **Consumer interface**.<br>
 The loop-based solution specifies how the operations should be performed.<br>
 The stream-based solution states what operations should be performed, qualified by the implementation of an appropriate functional interface.<br>
-**Stream-based** solutions to many problems can be `elegant` and `concise` compared to their iteration-based counterparts.<br>
+**Stream-based** solutions to many problems can be `elegant` and `concise` compared to their **iteration-based** counterparts.<br>
