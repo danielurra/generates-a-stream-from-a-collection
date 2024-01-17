@@ -37,7 +37,7 @@ public class Page392CreationOfStreamFromCollection {
 # The explanation
 The stream() operation at (1) generates a **stream** based on the elements from the **collection**. The map() operation at (2) parses the string elements to a <br>
 Year object, as defined by the lambda expression that implements the Function interface. The filter() operation at (3) performs a filtering of the elements<br>
-in the stream that are after the year 2000, as defined by a `lambda expression` that implements the Predicate interface. The forEach() operation at (4)<br>
+in the stream that are after the year 1975, as defined by a `lambda expression` that implements the Predicate interface. The forEach() operation at (4)<br>
 performs an action on each stream element, as defined by a lambda expression that implements the Consumer interface. The loop-based solution specifies how<br>
 the operations should be performed. The stream-based solution states what operations should be performed, qualified by the implementation of an<br>
 appropriate functional interface. Stream-based solutions to many problems can be elegant and concise compared to their iteration-based counterparts.<br>
