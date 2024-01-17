@@ -15,7 +15,6 @@ import java.util.List;
 public class Page392CreationOfStreamFromCollection {
 	public static void main(String[] args) {
 		System.out.println("Loop-based solution:");
-		// Loop-based solution:
 		List<String> values = List.of("2001", "1999", "2021", "2023", "2024", "1978");
 		for (String s : values) {
 			Year y = Year.parse(s);
@@ -25,7 +24,6 @@ public class Page392CreationOfStreamFromCollection {
 		}
 		
 		System.out.println("Stream-based solution:");
-		// Stream-based solution:
 		List<String> values2 = List.of("2001", "1999", "2021", "1111", "1112", "1113");
 		values2.stream() // (1)
 				.map(s -> Year.parse(s)) // (2)
