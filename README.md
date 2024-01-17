@@ -35,11 +35,11 @@ public class Page392CreationOfStreamFromCollection {
 ```
 # The Stream-based solution
 The stream() operation at (1) generates a **stream** based on the elements from the **collection**. The map() operation at (2) parses the string elements to a Year object,<br>
-as defined by the `lambda expression` that implements the Function interface.
+as defined by the `lambda expression` that implements the **Function interface**.
 The filter() operation at (3) performs a filtering of the elements in the stream that are after the year 1975, <br>
-as defined by a `lambda expression` that implements the Predicate interface.<br>
+as defined by a `lambda expression` that implements the **Predicate interface**.<br>
 The forEach() operation at (4)<br> performs an action on each stream element,<br>
-as defined by a `lambda expression` that implements the Consumer interface.<br>
+as defined by a `lambda expression` that implements the **Consumer interface**.<br>
 The loop-based solution specifies how the operations should be performed.<br>
 The stream-based solution states what operations should be performed, qualified by the implementation of an appropriate functional interface.<br>
 Stream-based solutions to many problems can be elegant and concise compared to their iteration-based counterparts.<br>
