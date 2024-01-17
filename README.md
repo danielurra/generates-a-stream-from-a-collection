@@ -1,6 +1,7 @@
 # Generates a stream from a collection
 Generates a stream based on the elements from the collection<br>
 <img width="325" alt="console" src="https://github.com/danielurra/generates-a-stream-from-a-collection/assets/51704179/ff25d083-32e6-4549-aa47-9f9e703fc97c"><br>
+# The Loop-based solution
 The Collection<E> interface and the Arrays utility class both provide a stream() method that builds a stream from the elements of a collection or an<br>
 array. In the loop-based solution below, elements from the "values" list are processed using a for(:) loop to test whether a year is after the year 1975.<br>
 The strings in the list are parsed to a Year object before being tested in an if statement.<br>
@@ -34,7 +35,7 @@ public class Page392CreationOfStreamFromCollection {
 	}
 }
 ```
-# The explanation
+# The Stream-based solution
 The stream() operation at (1) generates a **stream** based on the elements from the **collection**. The map() operation at (2) parses the string elements to a Year object,<br>
 as defined by the `lambda expression` that implements the Function interface.
 The filter() operation at (3) performs a filtering of the elements in the stream that are after the year 1975, <br>
